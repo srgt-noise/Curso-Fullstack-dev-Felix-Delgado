@@ -10,10 +10,11 @@ const LandingPage = () => {
   };
 
   return (
+    
     <div>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="https://imgbb.com/"><img src="https://i.ibb.co/N3z8qq9/Bloop.png" alt="Bloop" border="0" /></a>
+          <a href="curso-fullstack-dev-felix-delgado.vercel.app"><img src="https://i.ibb.co/N3z8qq9/Bloop.png" alt="Bloop" border="0" /></a>
           <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p0 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -35,7 +36,7 @@ const LandingPage = () => {
 
       {/* Additional sections would go here, following the same pattern. */}
       <section>
-      <div className="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-24">
+      <div className="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-28">
     <blockquote className="relative grid items-center bg-white shadow-xl md:grid-cols-3 rounded-xl">
         
         <img className="hidden object-cover w-full h-full rounded-l-xl md:block" style={{clipPath: 'polygon(0 0%, 100% 0%, 75% 100%, 0% 100%)'}} src="https://i.ibb.co/WvcjDq9/photo-1-2.png" alt="photo-1-2" />
@@ -48,11 +49,11 @@ const LandingPage = () => {
                     stroke="currentColor" strokeWidth="8"></path>
             </svg>
 
-            <div className="space-y-8">
-                <p className="text-base sm:leading-relaxed md:text-2xl">
-                Hi, I&apos;m Felix. I&apos;m a musician, DJ, writer and producer from Mexico. I intend to present this as part of my portfolio for Development jobs or collaborations.
-                I&apos;m always happy to learn and collaborate with people from different backgrounds. See my information and Resume on the Contact page and send me a message to talk about it!
-                </p>
+            <div className="space-y-8 text-black">
+            <p className="text-base sm:leading-relaxed md:text-2xl">
+            Hi, I&apos;m Felix. I&apos;m a musician, DJ, writer and producer from Mexico. I intend to present this as part of my portfolio for Development jobs or collaborations.
+            I&apos;m always happy to learn and collaborate with people from different backgrounds. See my information and Resume on the Contact page and send me a message to talk about it!
+            </p>
 
                 <footer className="flex items-center space-x-4 md:space-x-0">
                     <img className="w-12 h-12 rounded-full md:hidden" src="https://i.ibb.co/WvcjDq9/photo-1-2.png" alt="photo-1-2" />
@@ -67,14 +68,20 @@ const LandingPage = () => {
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">Felix Delgado®</a>. All Rights Reserved.</span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
+        <li>
+            <Link legacyBehavior href="/aboutme">
                 <a href="#" className="hover:underline me-4 md:me-6">About this project</a>
+            </Link>
             </li>
             <li>
+            <Link legacyBehavior href="https://linktr.ee/felix.delgado">
                 <a href="#" className="hover:underline me-4 md:me-6">Social Networks</a>
+            </Link>
             </li>
             <li>
+                <Link legacyBehavior href="/contact">
                 <a href="#" className="hover:underline">Contact</a>
+                </Link>
             </li>
         </ul>
     </div>
