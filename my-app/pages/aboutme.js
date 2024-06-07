@@ -49,8 +49,8 @@ const LandingPage = () => {
 
             <div className="space-y-8">
                 <p className="text-base sm:leading-relaxed md:text-2xl">
-                    Hi, I'm Felix. I'm a musician, DJ, writer and producer from Mexico. I intend to present this as part of my portfolio for Development jobs or colaborations.
-                    I'm always happy to learn and collaborate with people from different backgrounds. See my information and Resume on the Contact page and send me a message to talk about it! 
+                Hi, I&apos;m Felix. I&apos;m a musician, DJ, writer and producer from Mexico. I intend to present this as part of my portfolio for Development jobs or collaborations.
+                I&apos;m always happy to learn and collaborate with people from different backgrounds. See my information and Resume on the Contact page and send me a message to talk about it!
                 </p>
 
                 <footer className="flex items-center space-x-4 md:space-x-0">
