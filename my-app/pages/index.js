@@ -12,7 +12,7 @@ const LandingPage = () => {
     <div>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="https://imgbb.com/"><img src="https://i.ibb.co/N3z8qq9/Bloop.png" alt="Bloop" border="0" /></a>
+          <a href="curso-fullstack-dev-felix-delgado.vercel.app"><img src="https://i.ibb.co/N3z8qq9/Bloop.png" alt="Bloop" border="0" /></a>
           <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p0 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -66,10 +66,6 @@ const LandingPage = () => {
     <div className="mr-auto place-self-center lg:col-span-7">
       <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Bloop is also a community</h1>
       <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Join our web of users that care about mental health and love music as much as you. Receive music recommendations and advice from other users.</p>
-      <a href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-        Create an account
-        <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-      </a>
       <Link legacyBehavior href="/loginpage">
   <a className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
     Sign In page example
@@ -88,9 +84,11 @@ const LandingPage = () => {
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Meet the developer</h2>
       <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Connect with me, add me on GitHub, or message me if you wish to collaborate!</p>
       <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+      <Link legacyBehavior href="https://github.com/srgt-noise">
         <a href="#" className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
           GitHub
         </a>
+        </Link>
       </div>
     </div>
   </div>
